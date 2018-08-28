@@ -17,9 +17,10 @@ class CheckingReponse {
         if arrayResponse == painterName {
             isResponseGood = true
         }else{
-            false
+            isResponseGood = false
         }
         return isResponseGood
     }
     
 }
+

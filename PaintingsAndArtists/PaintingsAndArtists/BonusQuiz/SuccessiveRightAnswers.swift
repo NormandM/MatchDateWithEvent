@@ -9,23 +9,35 @@
 import UIKit
 
 class SuccessiveAnswer {
-    class func progression (commentAfterResponse: SpecialLabel, painterName: String, totalPaintings: Int) -> (SpecialLabel, Int){
+    class func progression (commentAfterResponse: SpecialLabel, painterName: String, totalPaintings: Int, gaveUp: Bool) -> (SpecialLabel, Int){
         let successiveRightAnswers =  UserDefaults.standard.integer(forKey: "successiveRightAnswers")
         var totalQuestion = Int()
         switch successiveRightAnswers {
         case 0, 1, 2, 3, 4:
-            commentAfterResponse.text = """
-            Great!
-            You recognized
-            \(painterName)'s style.
-            
-            1 coin bonnus was added to your credits
-            """
+            if gaveUp{
+                commentAfterResponse.text = """
+                Sorry you gave up!
+                remember the name:
+                
+                \(painterName)
+                
+                """
+                
+            }else{
+                commentAfterResponse.text = """
+                Great!
+                \(painterName)
+                You are right!
+                
+                1 coin bonnus was added to your credits
+                """
+            }
             totalQuestion = 5
         case 5:
             commentAfterResponse.text = """
             Art Amateur!
-            You had 5 consecutives right answers.
+            You were right with 5 consecutive
+            series of answers!
             
             A 5 coins bonnus was added to your credits
             """
@@ -34,8 +46,8 @@ class SuccessiveAnswer {
         case 6 ... 14:
             commentAfterResponse.text = """
             Great!
-            You recognized
-            \(painterName)'s style.
+            \(painterName)
+            You are right!
             
             1 coin bonnus was added to your credits
             """
@@ -43,7 +55,8 @@ class SuccessiveAnswer {
         case 15:
             commentAfterResponse.text = """
             Art Connoisseur!
-            You had 15 consecutives right answers.
+            You were right with 15 consecutive
+            series of answers!
             
             A 15 coins bonnus was added to your credits
             """
@@ -52,8 +65,8 @@ class SuccessiveAnswer {
         case 16 ... 29:
             commentAfterResponse.text = """
             Great!
-            You recognized
-            \(painterName)'s style.
+            \(painterName)
+            You are right!
             
             1 coin bonnus was added to your credits
             """
@@ -61,7 +74,8 @@ class SuccessiveAnswer {
         case 30:
             commentAfterResponse.text = """
             Art Expert!
-            You had 30 consecutives right answers.
+            You were right with 30 consecutive
+            series of answers!
             
             A 30 coins bonnus was added to your credits
             """
@@ -70,8 +84,8 @@ class SuccessiveAnswer {
         case 31 ... 49:
             commentAfterResponse.text = """
             Great!
-            You recognized
-            \(painterName)'s style.
+            \(painterName)
+            You are right!
             
             1 coin bonnus was added to your credits
             """
@@ -79,7 +93,8 @@ class SuccessiveAnswer {
         case 50:
             commentAfterResponse.text = """
             Art Scholar!
-            You had 50 consecutives right answers.
+            You were right with 50 consecutive
+            series of answers!
             
             A 50 coins bonnus was added to your credits
             """
@@ -88,16 +103,18 @@ class SuccessiveAnswer {
         case totalPaintings:
             commentAfterResponse.text = """
             Fantastic!
-            You know all the paintings!
+            You know it all!
             
             A 1000 coins bonnus was added to your credits
             """
             CreditManagment.increseOneThousandCredit()
         default:
+            print("painterName2: \(painterName)")
             commentAfterResponse.text = """
             Great!
-            You recognized
-            \(painterName)'s style.
+            \(painterName)
+            You are right!
+            
             1 coin bonnus was added to your credits
             """
             totalQuestion = totalPaintings

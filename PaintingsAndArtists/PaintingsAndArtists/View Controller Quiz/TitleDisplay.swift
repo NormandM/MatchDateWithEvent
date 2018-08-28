@@ -9,7 +9,7 @@
 import UIKit
 
 class TitleDisplay {
-    class func show(labelTitle: UILabel, titleText: String, nextButton: UIButton, view: ViewController) {
+    class func show(labelTitle: UILabel, titleText: String, nextButton: UIButton, view: QuizViewController) {
         let fontsAndConstraints = FontsAndConstraints()
         labelTitle.backgroundColor = .clear
         labelTitle.numberOfLines = 2
@@ -18,7 +18,6 @@ class TitleDisplay {
         labelTitle.textColor = .white
         view.navigationItem.titleView = labelTitle
         labelTitle.text = titleText
-        //labelTitle.text = artistList[indexPainting[n]][2]
         nextButton.isEnabled = true
         nextButton.isHidden = false
     }

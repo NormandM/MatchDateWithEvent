@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E11C4012120861500BB6AFC /* etc_error_drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E11C4002120861500BB6AFC /* etc_error_drum.mp3 */; };
+		8E11C4032120885F00BB6AFC /* chime_clickbell_octave_up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E11C4022120885F00BB6AFC /* chime_clickbell_octave_up.mp3 */; };
 		8E1C43D320C989480010F874 /* RandomizeOrderOfPaintings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C43D220C989480010F874 /* RandomizeOrderOfPaintings.swift */; };
 		8E1C43D620C9AC450010F874 /* Gymnopédie_no.3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8E1C43D520C9AC450010F874 /* Gymnopédie_no.3.mp3 */; };
+		8E279B77213328A600A44B62 /* Debug.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8E279B76213328A600A44B62 /* Debug.txt */; };
 		8E57650320EABD15001FEF3D /* Hint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57650220EABD15001FEF3D /* Hint.swift */; };
 		8E57650520EAC722001FEF3D /* EnumForHints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57650420EAC722001FEF3D /* EnumForHints.swift */; };
 		8E57650720EC0C70001FEF3D /* TitleDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E57650620EC0C70001FEF3D /* TitleDisplay.swift */; };
@@ -25,8 +28,6 @@
 		8EB88C552107C48F009755CD /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB88C542107C48F009755CD /* ImageManager.swift */; };
 		8EC8905F20E03825000BB518 /* ShakingMovement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8905E20E03825000BB518 /* ShakingMovement.swift */; };
 		8EC8906120E0397A000BB518 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8906020E0397A000BB518 /* SoundPlayer.swift */; };
-		8EC8906320E039E3000BB518 /* etc_error_drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8EC8906220E039E3000BB518 /* etc_error_drum.mp3 */; };
-		8EC8906520E03B14000BB518 /* chime_clickbell_octave_up.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8EC8906420E03B14000BB518 /* chime_clickbell_octave_up.wav */; };
 		8EC8906720E15B1E000BB518 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC8906620E15B1E000BB518 /* Translation.swift */; };
 		8EE4283220C32102005981B3 /* FontsAndConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE4283120C32101005981B3 /* FontsAndConstraints.swift */; };
 		8EE676D8210A40CA0057392C /* BonusQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE676D7210A40CA0057392C /* BonusQuizViewController.swift */; };
@@ -38,7 +39,7 @@
 		8EE676F32116008C0057392C /* LetterChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE676F22116008C0057392C /* LetterChoice.swift */; };
 		8EE676F521178B910057392C /* CheckingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE676F421178B910057392C /* CheckingResponse.swift */; };
 		8EFBE76C20B1B169008E7532 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE76B20B1B169008E7532 /* AppDelegate.swift */; };
-		8EFBE76E20B1B169008E7532 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE76D20B1B169008E7532 /* ViewController.swift */; };
+		8EFBE76E20B1B169008E7532 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE76D20B1B169008E7532 /* QuizViewController.swift */; };
 		8EFBE77120B1B169008E7532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFBE76F20B1B169008E7532 /* Main.storyboard */; };
 		8EFBE77420B1B169008E7532 /* PaintingsAndArtists.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EFBE77220B1B169008E7532 /* PaintingsAndArtists.xcdatamodeld */; };
 		8EFBE77620B1B16D008E7532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFBE77520B1B16D008E7532 /* Assets.xcassets */; };
@@ -68,8 +69,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E11C4002120861500BB6AFC /* etc_error_drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = etc_error_drum.mp3; sourceTree = "<group>"; };
+		8E11C4022120885F00BB6AFC /* chime_clickbell_octave_up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chime_clickbell_octave_up.mp3; sourceTree = "<group>"; };
 		8E1C43D220C989480010F874 /* RandomizeOrderOfPaintings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomizeOrderOfPaintings.swift; sourceTree = "<group>"; };
 		8E1C43D520C9AC450010F874 /* Gymnopédie_no.3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gymnopédie_no.3.mp3"; sourceTree = "<group>"; };
+		8E279B76213328A600A44B62 /* Debug.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Debug.txt; sourceTree = "<group>"; };
 		8E57650220EABD15001FEF3D /* Hint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hint.swift; sourceTree = "<group>"; };
 		8E57650420EAC722001FEF3D /* EnumForHints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumForHints.swift; sourceTree = "<group>"; };
 		8E57650620EC0C70001FEF3D /* TitleDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDisplay.swift; sourceTree = "<group>"; };
@@ -86,8 +90,6 @@
 		8EB88C542107C48F009755CD /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		8EC8905E20E03825000BB518 /* ShakingMovement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingMovement.swift; sourceTree = "<group>"; };
 		8EC8906020E0397A000BB518 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
-		8EC8906220E039E3000BB518 /* etc_error_drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = etc_error_drum.mp3; path = ../../../HistoricDatesQuiz/HistoricDatesQuiz/Sounds/etc_error_drum.mp3; sourceTree = "<group>"; };
-		8EC8906420E03B14000BB518 /* chime_clickbell_octave_up.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = chime_clickbell_octave_up.wav; path = ../../../HistoricDatesQuiz/HistoricDatesQuiz/Sounds/chime_clickbell_octave_up.wav; sourceTree = "<group>"; };
 		8EC8906620E15B1E000BB518 /* Translation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
 		8EE4283120C32101005981B3 /* FontsAndConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsAndConstraints.swift; sourceTree = "<group>"; };
 		8EE676D7210A40CA0057392C /* BonusQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusQuizViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +102,7 @@
 		8EE676F421178B910057392C /* CheckingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckingResponse.swift; sourceTree = "<group>"; };
 		8EFBE76820B1B169008E7532 /* PaintingsAndArtists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintingsAndArtists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFBE76B20B1B169008E7532 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EFBE76D20B1B169008E7532 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EFBE76D20B1B169008E7532 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		8EFBE77020B1B169008E7532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EFBE77320B1B169008E7532 /* PaintingsAndArtists.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaintingsAndArtists.xcdatamodel; sourceTree = "<group>"; };
 		8EFBE77520B1B16D008E7532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,8 +147,8 @@
 		8E1C43D420C9A0C80010F874 /* SoundsAndMusic */ = {
 			isa = PBXGroup;
 			children = (
-				8EC8906220E039E3000BB518 /* etc_error_drum.mp3 */,
-				8EC8906420E03B14000BB518 /* chime_clickbell_octave_up.wav */,
+				8E11C4022120885F00BB6AFC /* chime_clickbell_octave_up.mp3 */,
+				8E11C4002120861500BB6AFC /* etc_error_drum.mp3 */,
 				8E1C43D520C9AC450010F874 /* Gymnopédie_no.3.mp3 */,
 			);
 			path = SoundsAndMusic;
@@ -174,8 +176,6 @@
 			children = (
 				8E57650C20F15CB9001FEF3D /* ChosePaintingViewController.swift */,
 				8EACF31620FD360800F2E981 /* OtherPainting.swift */,
-				8EACF31820FE6FC100F2E981 /* ProgressionBarDisplay.swift */,
-				8EACF31C20FFB71000F2E981 /* SuccessiveRightAnswers.swift */,
 				8E9885E62103851F009C5A84 /* LabelWithInsets.swift */,
 				8EACF31220FBE01100F2E981 /* MessageView.swift */,
 			);
@@ -195,7 +195,7 @@
 		8EC8905D20E037F2000BB518 /* View Controller Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				8EFBE76D20B1B169008E7532 /* ViewController.swift */,
+				8EFBE76D20B1B169008E7532 /* QuizViewController.swift */,
 				8E57650A20F129CF001FEF3D /* PainterSelection.swift */,
 				8E57650620EC0C70001FEF3D /* TitleDisplay.swift */,
 				8EC8905E20E03825000BB518 /* ShakingMovement.swift */,
@@ -214,8 +214,10 @@
 			children = (
 				8EE676D7210A40CA0057392C /* BonusQuizViewController.swift */,
 				8EE676DE210B8DF60057392C /* AnswerCollectionViewCell.swift */,
+				8EACF31C20FFB71000F2E981 /* SuccessiveRightAnswers.swift */,
 				8EE676E22110D0B00057392C /* ArrayManagement.swift */,
 				8EE676E42110DE3C0057392C /* ChoosingPainterInfo.swift */,
+				8EACF31820FE6FC100F2E981 /* ProgressionBarDisplay.swift */,
 				8EE676F22116008C0057392C /* LetterChoice.swift */,
 				8EE676F421178B910057392C /* CheckingResponse.swift */,
 			);
@@ -248,6 +250,7 @@
 				8EFBE76B20B1B169008E7532 /* AppDelegate.swift */,
 				8EFBE76F20B1B169008E7532 /* Main.storyboard */,
 				8EE676EE2114AEBC0057392C /* ArtistesAndPaintings.plist */,
+				8E279B76213328A600A44B62 /* Debug.txt */,
 				8EB88C532107C45E009755CD /* StartMenu */,
 				8E57650E20F27949001FEF3D /* SlideShow */,
 				8E57650F20F279AE001FEF3D /* QuizPart2ChoosePainting */,
@@ -258,9 +261,9 @@
 				8EFBE77A20B1B16D008E7532 /* Info.plist */,
 				8EFBE77220B1B169008E7532 /* PaintingsAndArtists.xcdatamodeld */,
 				8EE4283120C32101005981B3 /* FontsAndConstraints.swift */,
-				8EFBE77520B1B16D008E7532 /* Assets.xcassets */,
-				8E1C43D420C9A0C80010F874 /* SoundsAndMusic */,
 				8EACF31A20FE812100F2E981 /* BuyCreditViewController.swift */,
+				8E1C43D420C9A0C80010F874 /* SoundsAndMusic */,
+				8EFBE77520B1B16D008E7532 /* Assets.xcassets */,
 			);
 			path = PaintingsAndArtists;
 			sourceTree = "<group>";
@@ -389,11 +392,12 @@
 			files = (
 				8EFBE77920B1B16D008E7532 /* LaunchScreen.storyboard in Resources */,
 				8E1C43D620C9AC450010F874 /* Gymnopédie_no.3.mp3 in Resources */,
-				8EC8906520E03B14000BB518 /* chime_clickbell_octave_up.wav in Resources */,
 				8EFBE77620B1B16D008E7532 /* Assets.xcassets in Resources */,
+				8E11C4032120885F00BB6AFC /* chime_clickbell_octave_up.mp3 in Resources */,
+				8E11C4012120861500BB6AFC /* etc_error_drum.mp3 in Resources */,
 				8EFBE77120B1B169008E7532 /* Main.storyboard in Resources */,
+				8E279B77213328A600A44B62 /* Debug.txt in Resources */,
 				8EE676EF2114AEBD0057392C /* ArtistesAndPaintings.plist in Resources */,
-				8EC8906320E039E3000BB518 /* etc_error_drum.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +429,7 @@
 				8EC8906120E0397A000BB518 /* SoundPlayer.swift in Sources */,
 				8EACF31520FD0A8B00F2E981 /* CreditManagement.swift in Sources */,
 				8EACF31D20FFB71000F2E981 /* SuccessiveRightAnswers.swift in Sources */,
-				8EFBE76E20B1B169008E7532 /* ViewController.swift in Sources */,
+				8EFBE76E20B1B169008E7532 /* QuizViewController.swift in Sources */,
 				8EE676F32116008C0057392C /* LetterChoice.swift in Sources */,
 				8EFBE77420B1B169008E7532 /* PaintingsAndArtists.xcdatamodeld in Sources */,
 				8E57650D20F15CB9001FEF3D /* ChosePaintingViewController.swift in Sources */,

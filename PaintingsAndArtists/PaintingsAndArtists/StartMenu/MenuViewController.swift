@@ -102,7 +102,7 @@ class MenuViewController: UIViewController {
             backItem.title = ""
             navigationItem.backBarButtonItem = backItem
             backItem.tintColor = UIColor.white
-            let controller = segue.destination as! ViewController
+            let controller = segue.destination as! QuizViewController
             controller.artistList = artistList
             controller.artistsCount = artistsCount
         }

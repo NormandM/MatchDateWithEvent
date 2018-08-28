@@ -12,6 +12,7 @@ class MessageView {
     class func showMessageView(view: UIView, messageView: UIView, button: UIButton?, visualEffect: UIVisualEffectView, effect:UIVisualEffect, diplomaImageView: UIImageView?, totalPaintings: Int?) {
         let successiveRightAnswers = UserDefaults.standard.integer(forKey: "successiveRightAnswers")
         messageView.layer.cornerRadius = 5
+        messageView.backgroundColor = UIColor(red: 27/255, green: 95/255, blue: 94/255, alpha: 0.7)
         view.addSubview(messageView)
         messageView.layer.borderWidth = 5
         messageView.layer.borderColor = UIColor(red: 27/255, green: 95/255, blue: 94/255, alpha: 1.0).cgColor

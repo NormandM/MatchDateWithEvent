@@ -9,7 +9,6 @@
 import UIKit
 
 class AnswerCollectionViewCell: UICollectionViewCell {
-
-    @IBOutlet weak var answerLetter: UILabel!
+        @IBOutlet weak var answerLetter: UILabel!
     
 }

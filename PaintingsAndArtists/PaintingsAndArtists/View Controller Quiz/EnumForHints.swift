@@ -12,6 +12,8 @@ enum HintLabel: String {
     case giveAnswer = "Give me the answer!: 3 coins"
     case dropTwoPainters = "Drop two Painters: 2 coins"
     case showBio = "See Painter Bio: 1 coin"
+    case showPainterName = "I give up! What is the painter's name: 4 coins"
+    case showLetter = "Give me one letter: 1 coin"
 }
 enum PainterButton: Int {
     case painter0 = 0

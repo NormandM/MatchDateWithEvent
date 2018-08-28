@@ -8,7 +8,7 @@
 
 import UIKit
 class ButtonTranslation {
-    class func translate(fromButton: UIButton, toButton: UIButton) {
+    class func translate(fromButton: UIButton, toButton: UIButton, painterName: String) {
         let fromButtonFrame = fromButton.frame
         let toButtonFrame = toButton.frame
         let maxXFromButton = fromButtonFrame.maxX
@@ -16,13 +16,16 @@ class ButtonTranslation {
         let maxXToButton = toButtonFrame.maxX
         let maxYToButton = toButtonFrame.maxY
         UIView.animate(withDuration: 1, animations: {
-            fromButton.transform = CGAffineTransform(translationX: maxXToButton - maxXFromButton, y: maxYToButton - maxYFromButton)}, completion:{finished in completionAnimation(fromButton: fromButton, toButton: toButton)})
+            fromButton.transform = CGAffineTransform(translationX: maxXToButton - maxXFromButton, y: maxYToButton - maxYFromButton)}, completion:{finished in completionAnimation(fromButton: fromButton, toButton: toButton, painterName: painterName)})
     }
-    class func completionAnimation(fromButton: UIButton, toButton: UIButton){
+    class func completionAnimation(fromButton: UIButton, toButton: UIButton, painterName: String){
         fromButton.isHidden =  false
         fromButton.isEnabled = false
         fromButton.backgroundColor = UIColor.black
         fromButton.titleLabel?.textColor = UIColor.white
+        fromButton.titleLabel!.lineBreakMode = .byWordWrapping
+        fromButton.titleLabel!.textAlignment = .center
+        fromButton.setTitle("\(painterName)\n1 coin was added", for: .normal)
         
     }
 }

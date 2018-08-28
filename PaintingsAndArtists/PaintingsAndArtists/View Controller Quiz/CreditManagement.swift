@@ -52,6 +52,11 @@ class CreditManagment{
         UserDefaults.standard.set(credit, forKey: "credit")
         hintButton.setTitle("\(credit) Coins available for Hints", for: .normal)
     }
+    class func decreaseFourCredit(hintButton: UIButton){
+        let credit = UserDefaults.standard.integer(forKey: "credit") - 4
+        UserDefaults.standard.set(credit, forKey: "credit")
+        hintButton.setTitle("\(credit) Coins available for Hints", for: .normal)
+    }
     class func displayCredit(hintButton: UIButton){
         let credit = UserDefaults.standard.integer(forKey: "credit")
         hintButton.setTitle("\(credit) Coins available for Hints", for: .normal)

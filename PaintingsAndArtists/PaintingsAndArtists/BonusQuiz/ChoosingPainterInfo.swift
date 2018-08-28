@@ -13,10 +13,9 @@ class ChoosingPainterInfo {
         var randomizeArtistList = artistList
         var questionIndex = Int()
         var secondPainting = String()
-        //randomizeArtistList.shuffle()
-        //UserDefaults.standard.set(randomizeArtistList, forKey: "randomizeArtistList")
         questionIndex = UserDefaults.standard.integer(forKey: "questionIndex")
         if !questionIndexAlreadyExist(questionIndex: "questionIndex") || questionIndex >= randomizeArtistList.count{
+            print("In if")
             questionIndex = 0
             UserDefaults.standard.set(questionIndex, forKey: "questionIndex")
             randomizeArtistList.shuffle()
